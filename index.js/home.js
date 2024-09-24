@@ -46,9 +46,6 @@ historyTab.addEventListener('click', function(event){
    const getDonateNumber = parseFloat(getDonate);
    const inputCountNumber = parseFloat(inputCount);
    const totalDonate = getDonateNumber + inputCountNumber;
-   if(getDonateNumber <=0 || isNan(getDonateNumber)){
-      return('Invalid donation Number')
-   }
    
 
    document.getElementById('count-input').innerText = totalDonate;
