@@ -2,8 +2,12 @@ const donationTab = document.getElementById('btn-donation')
 
 document.getElementById('btn-blog')
    .addEventListener('click', function(event){
-   window.location.href = '/home.html'
+   window.location.href = './home.html'
    });
+document.getElementById('btn-blog-one')
+  .addEventListener('click', function(event){
+   window.location.href = './index.html'
+  });
 
 donationTab.addEventListener('click', function(event){
    document.getElementById('history-show').classList.add('hidden');
